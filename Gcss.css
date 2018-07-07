@@ -2,6 +2,19 @@ div {
   border: 1px solid red;
 }
 
+
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+ul {
+  float: left;
+  padding: 10px;
+}
+
+
 #center {
   position: relative;
   top: 188px;
@@ -10,17 +23,48 @@ div {
 #photo {
   position: absolute;
   left: 50%;
-  right: 50%;
   width: 272px;
   margin-left: -136px;
 }
 
 #search {
   position: absolute;
-  top: 100px;
+  top: 120px;
+  left: 50%;
+  margin-left: -290px;
+
+}
+
+#engine {
+  width: 580px;
+  height: 37px;
+  border: 1px solid #ececec;
+  box-shadow: 2px 2px rgba(158, 158, 158, 0.21);
+
 }
 
 #buttons {
   position: absolute;
-  top: 150px;
+  top: 180px;
+  left: 50%;
+  margin-left: -145px;
+  width: 290px;
+}
+
+.mid_but {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2; 
+  margin: 11px 4px;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.mid_but:hover {
+  color: black;
+  background-color: rgba(242, 242, 242, 0.79);
+  border: 1px solid rgba(158, 158, 158, 0.74); 
 }
