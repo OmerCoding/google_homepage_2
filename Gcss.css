@@ -1,0 +1,26 @@
+div {
+  border: 1px solid red;
+}
+
+#center {
+  position: relative;
+  top: 188px;
+}
+
+#photo {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  width: 272px;
+  margin-left: -136px;
+}
+
+#search {
+  position: absolute;
+  top: 100px;
+}
+
+#buttons {
+  position: absolute;
+  top: 150px;
+}
