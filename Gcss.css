@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+#mid_buts:hover {
+  cursor: pointer;  
+}
+
+
 .mid_but {
   float: left;
   padding: 10px;
@@ -86,6 +91,11 @@
   font-size: 13px;
 }
 
+.bar:hover {
+  cursor: pointer;
+}
+
+
 #imgicon {
   content: url('photos/before.png');
 }
@@ -167,4 +177,6 @@
 
 .l:hover, .r:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
+
